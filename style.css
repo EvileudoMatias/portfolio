@@ -6,14 +6,31 @@
 body {
     width: 100dvw;
     min-height: 100vh;
-    background-color: rgb(33, 43, 49);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(26, 34, 39);
+}
+h1, h2, h3, h4 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
 }
 header {
     display: flex;
     justify-content: center;
 }
 .s-header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    align-items: center;
     width: 70%;
     height: 100px;
-    background-color: aquamarine;
+    background-image: url(img/bg-header.jpg);
+    box-shadow: 1px 1px 10px black;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.s-main {
 }
