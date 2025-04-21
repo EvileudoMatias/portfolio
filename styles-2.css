@@ -9,13 +9,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-input.nome {
+input.nome, input.email {
     width: 400px;
-}
-input.email {
-    width: 400px;
+    height: 25px;
 }
 input.mensagem {
     width: 400px;
     height: 200px;
+}
+button {
+    width: 100px;
+    height: 25px;
+    margin-top: 5px;
 }
