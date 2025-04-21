@@ -4,32 +4,16 @@
     box-sizing: border-box;
 }
 body {
-    width: 100vw;
+    width: 100dvw;
     min-height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: linear-gradient(rgb(55, 130, 143), rgb(147, 219, 231));
+    background-color: rgb(33, 43, 49);
 }
 header {
-    margin-top: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-.cabecalho {
-    width: 60%;
-    height: 180px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px black;
-    background-color: aliceblue;
-}
-nav {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-around;
-}
-.navegacao {
-    width: 60%;
-    height: 35px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px black;
-    background-color: aliceblue;
+.s-header {
+    width: 70%;
+    height: 100px;
+    background-color: aquamarine;
 }
