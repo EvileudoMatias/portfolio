@@ -15,7 +15,7 @@ input.nome, input.email {
     margin-bottom: 10px;
     outline: none;
 }
-textarea.mensagem {
+.mensagem {
     width: 400px;
     height: 200px;
     margin-bottom: 10px;
